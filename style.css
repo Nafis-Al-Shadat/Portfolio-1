@@ -5,7 +5,6 @@ body {
 
 .flexible {
     display: flex;
-
 }
 
 .top-bg-img {
@@ -16,7 +15,8 @@ body {
 
 .half-width {
     width: 40%;
-    margin: 0 4% 0 6%;
+    margin: 0 0 0 5%;
+    padding: 0 2%;
 }
 
 div img {
@@ -30,7 +30,6 @@ div img {
 h1 {
     font-size: 46px;
 }
-
 
 
 .grey {
@@ -50,4 +49,27 @@ h1 {
     background-image: url('images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right bottom;
+    margin-bottom: 100px;
+}
+
+.font-sz {
+    font-size: 40px;
+}
+
+.shadow {
+    box-shadow: 5px 7px 40px grey;
+    height: 400px;
+
+}
+
+.br1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, coral);
+    border-image-slice: 1;
+}
+
+.br2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(0, 247, 255));
+    border-image-slice: 1;
 }
