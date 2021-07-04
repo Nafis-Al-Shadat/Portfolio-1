@@ -73,3 +73,7 @@ h1 {
     border-image: linear-gradient(blue, rgb(0, 247, 255));
     border-image-slice: 1;
 }
+
+.center {
+    text-align: center;
+}
